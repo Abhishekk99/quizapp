@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Quizz App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <h1>Quizqueue</h1>
+                <span id="score"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="submain">
+
+            <div class="question">
+                <h1 id="que">question text</h1>
+            </div>
+
+
+            <div class="option">
+                
+                    <input type="radio" id="a" name="option" class="inp">
+                    <label for="r1" id="lbl1">op1</label> 
+                    <br>
+                    <input type="radio" id="b" name="option" class="inp">
+                    <label for="r2" id="lbl2">op2</label> 
+                    <br>
+                    <input type="radio" id="c" name="option" class="inp">
+                    <label for="r3" id="lbl3">op3</label> 
+                    <br>
+                    <input type="radio" id="d" name="option" class="inp">
+                    <label for="r4" id="lbl4">op4</label> 
+                    <br>
+
+                    <button id="submit" onclick="loadquizdata()">Submit</button>
+                    
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
